@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Setting character encoding and viewport for responsive design -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flask Shop</title>
-    <!-- Linking to the static CSS file -->
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <!-- Main container for the shop layout -->
     <div class="container">
-        <h1>Flask Shop <span class="logo">🏪</span></h1>
-        <h2>Products <span class="separator">|</span> Products</h2>
+        <h1>🛍️ Flask Shop</h1>
+        <h2>📋 Products</h2>
         <div class="product-grid">
-            <!-- Looping through products to create dynamic cards -->
             {% for product in products %}
             <div class="product-card">
                 <img src="{{ product.image }}" alt="{{ product.title }}">
@@ -26,12 +22,10 @@
         </div>
         <div class="cart">
             <h2>Cart ({{ cart|length }}) - ${{ "%.2f" | format(total) }} <span class="cart-icon">🛒</span></h2>
-            <!-- Displaying cart items if any -->
             {% if cart %}
                 {% for item in cart %}
-                    <p>{{ item.title }} - ${{ "%.2f" | format(item.price) }}</p>
+                    <p>{{ item.title }} - ${{ "%.2f" | format(item.price) }} <a href="/remove_from_cart/{{ loop.index0 }}" class="remove">Remove</a></p>
                 {% endfor %}
-                <a href="/remove_from_cart" class="remove">Remove</a>
             {% endif %}
         </div>
     </div>
