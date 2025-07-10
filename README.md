@@ -32,26 +32,26 @@ Prerequisites
 Make sure you have Python 3.7+ installed.
 Installation
 
-    Clone the repository:
+Clone the repository:
 
-git clone https://github.com/matin3ai/shop_flask.git
-cd flask-shop
+    git clone https://github.com/matin3ai/shop_flask.git
+    cd flask-shop
 
 Create a virtual environment and activate it:
 
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 Install the dependencies:
 
-pip install Flask requests
+    pip install Flask requests
 
 Run the Flask app:
 
     python app.py
 
-    Open your browser and visit:
-    http://127.0.0.1:5000
+Open your browser and visit:
+http://127.0.0.1:5000
 
 🧪 Tech Stack
 
