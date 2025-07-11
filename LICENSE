@@ -1,21 +1,23 @@
-MIT License
+Business Source License 1.1
 
-Copyright (c) 2025 Matin_alijani
+Licensor: Matin Alijani
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Licensed Work: The source code and all files in this repository
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The Licensed Work is provided under the Business Source License, Version 1.1 ("BSL"), and the following additional terms:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1. **Usage Limitations:**
+   You may use, copy, modify, and distribute the Licensed Work, but only for non-commercial purposes. Commercial use of any kind, including use as part of a proprietary product or as a service, is prohibited without a commercial license from the Licensor.
+
+2. **Change Date:**
+   The Change Date is **2030-07-11** (five years from today). After this date, the Licensed Work will be automatically re-licensed under the Apache License, Version 2.0.
+
+3. **Commercial Use:**
+   Any commercial use of this software prior to the Change Date requires a commercial license. Please contact the Licensor to obtain a commercial license.
+
+4. **Disclaimer:**
+   THE LICENSED WORK IS PROVIDED “AS IS”, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+For more information or to obtain a commercial license, please contact: **matin.alijani@gmail.com**
+
+Full BSL license text is available at: https://mariadb.com/bsl11
